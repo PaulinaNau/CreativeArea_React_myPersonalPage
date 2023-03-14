@@ -1,12 +1,36 @@
 import React from 'react';
-import { NavWrapper, StyledLink } from './Navigation.styles';
+import { Link } from 'react-router-dom';
+import {
+  NavWrapper,
+  StyledLogo,
+  StyledNavigation,
+  StyledLink,
+  StyledHamburger,
+} from './Navigation.styles';
+import { ReactComponent as Logo } from 'assets/icons/logo.svg';
+import { ReactComponent as Hamburger } from 'assets/icons/hamburger-menu.svg';
 
 const Navigation = () => {
   return (
     <>
       <NavWrapper>
-        <StyledLink exact to="/">Dashboard</StyledLink>
-        <StyledLink to="/add-user">Settings</StyledLink>
+        <div>
+          <Link to="/">
+            <StyledLogo>
+              <Logo alt="creative block design studio"></Logo>
+            </StyledLogo>
+            </Link>
+            <StyledHamburger>
+              <Hamburger alt="creative block menu"></Hamburger>
+            </StyledHamburger>
+        
+        </div>
+        <StyledNavigation>
+          <StyledLink to="/omnie">O mnie</StyledLink>
+          <StyledLink to="/portfolio">Realizacje</StyledLink>
+          <StyledLink to="/uslugi">Usługi</StyledLink>
+          <StyledLink to="/kontakt">Kontakt</StyledLink>
+        </StyledNavigation>
       </NavWrapper>
     </>
   );

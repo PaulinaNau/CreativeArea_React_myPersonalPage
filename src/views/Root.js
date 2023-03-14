@@ -2,12 +2,14 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from 'assets/styles/globalStyles';
 import { theme } from 'assets/styles/themes';
-import { Wrapper } from './Root.styles';
+import { Wrapper, ViewWrapper } from './Root.styles';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainTemplate from 'components/templates/MainTemplate/MainTemplate';
-import AddUser from 'views/AddUser';
-import Dashboard from 'views/Dashboard';
-import UsersProvider from 'providers/UsersProvider';
+import Home from 'views/Home';
+import About from 'views/About';
+import Portfolio from './Portfolio';
+import Offer from 'views/Offer';
+import Contact from 'views/Contact';
 
 const Root = () => {
   return (
@@ -15,14 +17,17 @@ const Root = () => {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <MainTemplate>
-          <UsersProvider>
             <Wrapper>
-              <Routes>
-                <Route path="/add-user" element={<AddUser />}></Route>
-                <Route path="/" element={<Dashboard />}></Route>
-              </Routes>
+              <ViewWrapper>
+                <Routes>
+                  <Route path="/" element={<Home />}></Route>
+                  <Route path="/omnie" element={<About />}></Route>
+                  <Route path="/portfolio" element={<Portfolio />}></Route>
+                  <Route path="/uslugi" element={<Offer />}></Route>
+                  <Route path="/kontakt" element={<Contact />}></Route>
+                </Routes>
+              </ViewWrapper>
             </Wrapper>
-          </UsersProvider>
         </MainTemplate>
       </ThemeProvider>
     </Router>
