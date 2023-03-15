@@ -50,33 +50,34 @@ export const NavWrapper = styled.div`
 
 
 export const StyledLink = styled(NavLink)`
+font-family: 'Raleway', sans-serif;
 text-decoration: none;
 font-size: ${({ theme }) => theme.fontSize.l}
-color: ${({ theme }) => theme.colors.black};
-font-weight: 300;
+color: ${({ theme }) => theme.colors.darkGrey};
+font-weight: 400;
 margin: 20px;
 text-transform: uppercase;
+transition: color 400ms ease-in-out;
+transition: font-weight 600ms ease-in-out;
 &.active {
-  color: ${({ theme }) => theme.colors.rose};
-  font-weight: 400;
-  transition: color 400ms linear;
+  font-weight: 600;
+  color: #c60089;
 }
 ::after {
   display: block;
   content: '';
-  border-bottom: solid 1px ${({ theme }) => theme.colors.black};  
+  border-bottom: solid 1px ${({ theme }) => theme.colors.darkGrey};  
   transform: scaleX(0);  
   transition: transform 300ms ease-in-out;
 }
 &:not(.active):hover:after { 
   transform: scaleX(1);
  }
-:visited {
-  color: ${({ theme }) => theme.colors.black};
+ &:not(.active):visited {
+  color: ${({ theme }) => theme.colors.darkGrey};
 }
-
 :hover {
-  color: ${({ theme }) => theme.colors.rose};
-  text-decoration:none
+  color: #c60089;
+  text-decoration: none;
 }
 `;
