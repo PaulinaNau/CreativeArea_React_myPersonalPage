@@ -11,6 +11,7 @@ export const NavWrapper = styled.div`
   align-items: center;
   padding: 0 50px;
   position: fixed;
+  z-index: 100;
   `;
 
   export const StyledLogo = styled.div`

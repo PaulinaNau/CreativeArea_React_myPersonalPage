@@ -6,7 +6,7 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   width: 220px;
-  height: 40px;
+  height: 50px;
   border: 1px solid ${({ theme }) => theme.colors.black};
   border-radius: 25px;
   padding: 10px;

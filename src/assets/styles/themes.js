@@ -9,8 +9,14 @@ export const theme = {
         black: '#111111',
       },
       fontSize: {
-        xl: '45px',
+        xl: '40px',
         l: '20px',
+        m: '16px',
+        s: '11px',
+      },
+      fontSizeMobile: {
+        xl: '30px',
+        l: '18px',
         m: '14px',
         s: '11px',
       },

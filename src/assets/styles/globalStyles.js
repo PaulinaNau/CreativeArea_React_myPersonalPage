@@ -18,10 +18,6 @@ a, button {
     font-family: 'Poppins', sans-serif;
 }
 
-img {
-    width: 100%;
-}
-
 `;
 
 

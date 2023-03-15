@@ -1,0 +1,96 @@
+
+
+.imgStyled {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  
+}
+@media screen and (max-width: 768px) {
+    .imgStyled {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.imgText {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  content: 'Przejdź do projektów';
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 400;
+  z-index: 30;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.imgText:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.imgStyled img {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imgStyled::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #c60089;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  transform: translateX(0) rotate(0) translateY(0);
+  transition: transform 400ms ease-in-out;
+}
+
+.imgStyled:hover::before {
+  transform: translateX(10px) rotate(5deg) translateY(-5px);
+}
+
+.imgStyled::after {
+  content: '';
+  width: 96%;
+  height: 96%;
+  background-color: #242020;
+  opacity: 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+  /* border: 15px solid #ffffff; */
+  transition: background-color 0.4s ease-in-out;
+}
+.imgStyled:hover::after {
+  opacity: 0.7;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
