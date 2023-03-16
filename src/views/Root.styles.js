@@ -1,20 +1,23 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
+// display: flex;
+// justify-content: center;
+// align-items: center;
 width: 100%;
-height: 100vh;
+min-height: auto;
 background-color: ${({ theme }) => theme.colors.light};
 `;
 
 export const ViewWrapper = styled.div`
 width: 100%;
-height: 100vh;
+height: auto;
 background-color: ${({ theme }) => theme.colors.light};
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 100px 0 0 0;
+// display: flex;
+// justify-content: space-between;
+// align-items: center;
+padding: 150px 0 0 0;
+@media screen and (max-width: 768px) {
+    padding: 70px 0 0 0;
+}
 `;

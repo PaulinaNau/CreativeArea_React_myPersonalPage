@@ -10,7 +10,7 @@ export const Button = styled.button`
   border: 1px solid ${({ theme }) => theme.colors.black};
   border-radius: 25px;
   padding: 10px;
-  margin: 30px 0;
+  margin: 40px 0;
   font-size: ${({ theme }) => theme.fontSize.l};
   color: ${({ theme }) => theme.colors.black};
   background-color: ${({ theme }) => theme.colors.light};

@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 768px) {
     .imgStyled {
-        width: 100px;
+        width: 250px;
         height: auto;
     }
 }
@@ -34,6 +34,15 @@
   z-index: 30;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .imgText {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .imgText:hover {
@@ -63,12 +72,12 @@
   z-index: 0;
   margin: 0;
   padding: 0;
-  transform: translateX(0) rotate(0) translateY(0);
+  transform: translateX(0) translateY(0);
   transition: transform 400ms ease-in-out;
 }
 
 .imgStyled:hover::before {
-  transform: translateX(10px) rotate(5deg) translateY(-5px);
+  transform: translateX(12px) translateY(-12px);
 }
 
 .imgStyled::after {
@@ -86,7 +95,7 @@
   transition: background-color 0.4s ease-in-out;
 }
 .imgStyled:hover::after {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .center {

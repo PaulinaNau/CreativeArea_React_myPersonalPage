@@ -9,7 +9,7 @@ const HomeContent = () => (
   <>
     <div className="container">
       <div className="row">
-        <div className="col-12 col-md-6 d-flex justify-center align-items-center p-5">
+        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center ps-3">
           <TextWrapper>
             <div>
               <WelcomeTitle>Spójność wizualna marki</WelcomeTitle>
@@ -19,14 +19,11 @@ const HomeContent = () => (
             </div>
           </TextWrapper>
         </div>
-        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center my-3 my-md-0">
           <div className="imgStyled">
             <HomeImg></HomeImg>
             <div className="imgText">Przejdź do portfolio</div>
           </div>
-        </div>
-        <div className='col-12'>
-
         </div>
       </div>
     </div>
