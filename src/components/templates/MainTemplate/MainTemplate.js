@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from 'components/organisms/Navigation/Navigation';
-import { MainWrapper } from './MainTemplates.styles';
+import { MainWrapper, TopWrapper } from './MainTemplates.styles';
 import Footer from 'components/organisms/Footer/Footer';
 
 const MainTemplate = ({ children }) => {
@@ -8,6 +8,7 @@ const MainTemplate = ({ children }) => {
     <>
       <MainWrapper>
         <Navigation />
+        <TopWrapper />
         {children}
         <Footer />
       </MainWrapper>

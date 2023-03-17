@@ -7,5 +7,5 @@ display: flex;
 justify-content: center;
 align-items: center;
 color: white;
-background-color: ${({ theme }) => theme.colors.grey};
+background-color: ${({ theme }) => theme.colors.darkGrey};
 `

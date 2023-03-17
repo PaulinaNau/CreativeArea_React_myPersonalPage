@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextWrapper, ButtontWrapper } from './HomeContent.styles';
+import { TextWrapper, ButtontWrapper } from 'assets/styles/wrappers';
 import { WelcomeSubtitle, WelcomeTitle, MainText } from 'assets/styles/fonts';
 import HomeImg from 'components/atoms/HomeImg/HomeImg';
 import { Button } from 'components/atoms/Button/Button';

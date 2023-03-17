@@ -10,7 +10,6 @@ export const WelcomeTitle = styled.h1`
   padding: 0;
   margin: 0;
   @media screen and (max-width: 768px) {
-    margin: 100px 0 0 0;
     font-size: ${({ theme }) => theme.fontSizeMobile.xl};
     line-height: 45px;
   }
@@ -42,7 +41,7 @@ export const Title = styled.p`
 `;
 export const Subtitle = styled.p`
   font-size: ${({ theme }) => theme.fontSize.l};
-  color: ${({ theme }) => theme.colors.black};
+  color:  ${(props) => props.isWhite ? 'white' : 'black'};
   font-weight: 500;
   textalign: left;
   @media screen and (max-width: 768px) {

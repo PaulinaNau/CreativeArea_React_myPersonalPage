@@ -13,10 +13,7 @@ export const ViewWrapper = styled.div`
 width: 100%;
 height: auto;
 background-color: ${({ theme }) => theme.colors.light};
-// display: flex;
-// justify-content: space-between;
-// align-items: center;
-padding: 150px 0 0 0;
+padding: 50px 0 0 0;
 @media screen and (max-width: 768px) {
     padding: 70px 0 0 0;
 }

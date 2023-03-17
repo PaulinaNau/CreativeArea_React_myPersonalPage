@@ -6,7 +6,7 @@ const Footer = () => (
   <>
   <FooterStyled>
     <MainText className='p-3' isWhite>Portfolio</MainText>
-    <MainText className='p-3' isWhite>Wspólpraca</MainText>
+    <MainText className='p-3' isWhite>Współpraca</MainText>
     <MainText className='p-3' isWhite>Kontakt</MainText>
     </FooterStyled>
   </>

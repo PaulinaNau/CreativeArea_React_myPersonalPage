@@ -1,12 +1,13 @@
 import React from 'react';
-import { Title } from 'assets/styles/fonts';
+import AboutContent from 'components/organisms/AboutContent/AboutContent';
 
-const About = () => (
+const About = () => {
 
-<Title>Projektownie z pasją</Title>
-
-);
-
+  return (
+    <>
+    <AboutContent></AboutContent>
+    </>
+  );
+};
 
 export default About;
-
