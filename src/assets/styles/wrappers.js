@@ -25,7 +25,14 @@ padding: 60px 50px;
 export const ImgStyled = styled.div`
 width: 400px;
 height: auto;
-&::after {
-  border: 20px solid #000000;
+position: relative;
+cursor: pointer;
+&::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10px;
+  left: -10px;
 }
 `

@@ -13,11 +13,11 @@ const HomeContentBottom = () => (
           <div className="col-12 col-md-6">
             <Title isLight>Paulina Naurecka</Title>
             <MainText>
-              Jestem grafikiem-programistą z pasji i z zawodu. Tworzę spójną
-              komunikację wizualna dla firm, od projektów digital po print.
-              Projektuję strony internetowe, grafiki do social media, banery,
-              katalogi i e-booki. Do druku przygotowuję wizytówki, ulotki,
-              plakaty, <nobr>a także</nobr> banery wielkoformatowe.
+              Na co dzień tworzę grafikę i programuję - to moja praca, ale też pasja. To połączenie daje mi wielką satysfakcję, kocham to co robię. Projektuję spójną
+              komunikację wizualną dla firm, od projektów digital po print.
+              Projektuję strony internetowe, które następnie koduję, przygotowyję grafiki do social media, banery,
+              katalogi, e-booki. Do druku tworzę głównie wizytówki, ulotki,
+              plakaty, zaproszenia,<nobr>a także</nobr> banery wielkoformatowe.
             </MainText>
             <MainText>
               Uwielbiam kreatywne wyzwania, więc jeśli potrzebujesz projektu,

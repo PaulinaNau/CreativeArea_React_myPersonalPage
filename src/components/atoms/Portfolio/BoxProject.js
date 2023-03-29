@@ -6,14 +6,16 @@ const BoxProject = () => (
   <>
     <div className="container">
       <div className="row">
+      <div className="d-flex flex-wrap justify-content-around align-items-center p-3">
         <div className="col-12 col-md-3">
-          <BoxProjectStyled><Subtitle isWhite>Banery digital</Subtitle></BoxProjectStyled>
+          <BoxProjectStyled><Subtitle isWhite>DIGITAL</Subtitle></BoxProjectStyled>
         </div>
         <div className="col-12 col-md-3">
-          <BoxProjectStyled><Subtitle isWhite>Grafiki do druku</Subtitle></BoxProjectStyled>
+          <BoxProjectStyled><div><Subtitle isWhite>PRINT</Subtitle></div></BoxProjectStyled>
         </div>
         <div className="col-12 col-md-3">
-          <BoxProjectStyled><Subtitle isWhite>Strony i aplikacje</Subtitle></BoxProjectStyled>
+          <BoxProjectStyled><Subtitle isWhite>WEBSITE</Subtitle></BoxProjectStyled>
+        </div>
         </div>
       </div>
     </div>

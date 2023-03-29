@@ -3,13 +3,14 @@ import { Title } from 'assets/styles/fonts';
 import { Wrapper } from 'assets/styles/wrappers';
 import BoxProject from 'components/atoms/Portfolio/BoxProject';
 
-
 const Portfolio = () => {
   return (
     <>
       <Wrapper>
-        <Title>Zobacz moje najnowsze realizacje</Title>
-        <BoxProject></BoxProject>
+        <div className="d-flex justify-content-center align-items-center mb-5 p-0">
+          <Title>Zobacz moje najnowsze realizacje</Title>
+        </div>
+          <BoxProject></BoxProject>
       </Wrapper>
     </>
   );

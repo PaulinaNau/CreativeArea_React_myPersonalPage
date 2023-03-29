@@ -1,11 +1,10 @@
 import React from 'react';
-import { Title } from 'assets/styles/fonts';
+import OfferContent from 'components/organisms/OfferContent/OfferContent';
 
 const Offer = () => {
-
   return (
     <>
-    <Title>Usługi</Title>
+      <OfferContent></OfferContent>
     </>
   );
 };
