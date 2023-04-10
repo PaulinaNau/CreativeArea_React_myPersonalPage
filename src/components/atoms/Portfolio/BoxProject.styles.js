@@ -12,6 +12,10 @@ padding: 0;
 margin: 20px;
 cursor: pointer;
 position: relative;
+@media screen and (max-width: 768px) {
+    height: 200px;
+    width: 200px;
+}
 :hover {
     background-color: ${({ theme }) => theme.colors.main};
     ::before {

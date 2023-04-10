@@ -13,15 +13,15 @@ const HomeContentBottom = () => (
           <div className="col-12 col-md-6">
             <Title isLight>Paulina Naurecka</Title>
             <MainText>
-              Na co dzień tworzę grafikę i programuję - to moja praca, ale też pasja. To połączenie daje mi wielką satysfakcję, kocham to co robię. Projektuję spójną
+              Na co dzień tworzę grafikę i programuję - to moja praca, ale też pasja, która daje wiele satysfakcji. Projektuję spójną
               komunikację wizualną dla firm, od projektów digital po print.
-              Projektuję strony internetowe, które następnie koduję, przygotowyję grafiki do social media, banery,
+              Tworzę strony internetowe, przygotowyję grafiki do social media, banery,
               katalogi, e-booki. Do druku tworzę głównie wizytówki, ulotki,
               plakaty, zaproszenia,<nobr>a także</nobr> banery wielkoformatowe.
             </MainText>
             <MainText>
               Uwielbiam kreatywne wyzwania, więc jeśli potrzebujesz projektu,
-              którego tutaj nie wymieniłam, smiało się ze mną skontaktuj,{' '}
+              którego tutaj nie wymieniłam, śmiało się ze mną skontaktuj,{' '}
               <nobr>a na pewno</nobr> wszystko sprawnie zrealizujemy{' '}
             </MainText>
             <Button>Poznajmy się lepiej</Button>

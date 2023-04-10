@@ -50,7 +50,6 @@ export const Subtitle = styled.p`
 `;
 
 export const MainText = styled.p`
-  // font-family: 'Raleway', sans-serif;
   font-size: ${({ theme }) => theme.fontSize.m};
   color: ${(props) => props.isWhite ? 'white' : 'black'};
   font-weight: 300;

@@ -1,11 +1,11 @@
 import React from 'react';
-import { WelcomeTitle } from 'assets/styles/fonts';
+import ContactForm from 'components/organisms/ConstactForm/ContactForm';
 
 const Offer = () => {
 
   return (
     <>
-    <WelcomeTitle>Kontakt</WelcomeTitle>
+    <ContactForm></ContactForm>
     </>
   );
 };

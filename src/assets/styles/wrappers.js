@@ -36,3 +36,13 @@ cursor: pointer;
   left: -10px;
 }
 `
+export const BoxBorder = styled.div`
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+@media screen and (max-width: 768px) {
+  height: auto;
+}
+`
