@@ -1,13 +1,12 @@
 import React from 'react';
-import { FooterStyled } from './Footer.styles';
-import { MainText } from 'assets/styles/fonts';
+import { FooterStyled, FooterLink } from './Footer.styles';
 
 const Footer = () => (
   <>
   <FooterStyled>
-    <MainText className='p-3' isWhite>Portfolio</MainText>
-    <MainText className='p-3' isWhite>Współpraca</MainText>
-    <MainText className='p-3' isWhite>Kontakt</MainText>
+    <FooterLink to='/portfolio'>Portfolio</FooterLink>
+    <FooterLink to='/uslugi'>Usługi</FooterLink>
+    <FooterLink to='/kontakt'>Kontakt</FooterLink>
     </FooterStyled>
   </>
 );

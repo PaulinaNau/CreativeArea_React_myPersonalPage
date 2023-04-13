@@ -28,7 +28,7 @@ const OfferContent = () => {
               <BoxBorder>
                 <div>
                 <Title className="text-center">Digital</Title>
-                <MainText>banery an stronę</MainText>
+                <MainText>banery na stronę</MainText>
                 <MainText>posty social media</MainText>
                 <MainText>reklama Google Ads</MainText>
                 </div>
@@ -66,8 +66,7 @@ const OfferContent = () => {
               <div className="d-flex justify-content-start align-items-center">
                 <NumberIcon>2</NumberIcon>
                 <MainText>
-                  Podaję termin realizacji oraz cenę projektów i zaliczki, a
-                  nastepnie popisujemy umowę.
+                  Podaję termin realizacji oraz cenę, a kiedy wszystko jest ustalone, popisujemy umowę.
                 </MainText>
               </div>
             </div>

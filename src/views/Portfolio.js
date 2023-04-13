@@ -4,6 +4,7 @@ import { Wrapper } from 'assets/styles/wrappers';
 import BoxProject from 'components/atoms/Portfolio/BoxProject';
 
 const Portfolio = () => {
+  window.scrollTo(0, 0)
   return (
     <>
       <Wrapper>

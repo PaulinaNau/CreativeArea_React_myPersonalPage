@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from 'components/organisms/Navigation/Navigation';
+import Navigation from 'components/organisms/Navigation/NavigationContainer';
 import { MainWrapper, TopWrapper } from './MainTemplates.styles';
 import Footer from 'components/organisms/Footer/Footer';
 

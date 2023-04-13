@@ -4,7 +4,7 @@ import Parallax from 'components/organisms/Paralax/Parallax';
 import HomeContentBottom from 'components/organisms/HomeContentBottom/HomeContentBottom';
 
 const Home = () => {
-
+  window.scrollTo(0, 0)
   return (
     <>
     <HomeContent></HomeContent>

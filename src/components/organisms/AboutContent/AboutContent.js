@@ -56,7 +56,7 @@ const AboutContent = () => (
           
             <div className="container">
               <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-10 col-md-8 mb-3 mb-md-5 mt-0 mt-md-3">
+                <div className="col-10 col-md-8 my-2 my-md-5">
                   <MainText>
                     Pracę zaczynam od omówienia pomysłu, ustalenia potrzeb i
                     oczekiwań, a kiedy już wszystkie szczegóły są ustalone,

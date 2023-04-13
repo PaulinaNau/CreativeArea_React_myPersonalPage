@@ -6,7 +6,7 @@ export const WelcomeTitle = styled.h1`
   color: ${(props) => (props.isLight ? '#727272' : '#242020')};
   font-size: ${({ theme }) => theme.fontSize.xl};
   text-align: left;
-  line-height: 40px;
+  line-height: 55px;
   padding: 0;
   margin: 0;
   @media screen and (max-width: 768px) {
