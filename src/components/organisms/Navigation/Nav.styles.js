@@ -38,31 +38,47 @@ export const StyledLogo = styled.div`
 export const StyledHamburger = styled.div`
 display: none;
 width: 40px;
+position: relative,
+z-index: 1;
 
 @media (max-width: 768px) {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
 }
+`;
 
-`
+export const StyledBar = styled.div`
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background-color: ${({ theme }) => theme.colors.darkGrey};
+`;
 
 export const StyledHamburgerMenu = styled.div`
-display: none;
-width: 200px;
-position: absolute;
-top: 100px;
-right: 0px;
+  display: none;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  background-color: ${({ theme }) => theme.colors.light};
+  border: 1px solid #242020;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  z-index: -1;
 
-@media (max-width: 768px) {
-  display: block;
-}
-`
-
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+`;
 
 // export const StyledHamburger = styled.div`
 //   display: none;
 
 //   @media screen and (max-width: 768px) {
-    
+
 //     display: block;
 //     width: 40px;
 //     height: auto;
@@ -103,7 +119,6 @@ margin: 20px;
 text-transform: uppercase;
 transition: color 400ms ease-in-out;
 transition: font-weight 600ms ease-in-out;
-width: 100%;
 text-align: center;
 &.active {
   font-weight: 600;
@@ -112,10 +127,10 @@ text-align: center;
 ::after {
   display: block;
   content: '';
-  width: 100%;
+  width: auto;
   border-bottom: solid 1px ${({ theme }) => theme.colors.darkGrey};  
   transform: scaleX(0);  
-  transition: transform 300ms ease-in-out;
+  transition: transform .3s ease-in-out;
 }
 &:not(.active):hover:after { 
   transform: scaleX(1);
@@ -126,5 +141,14 @@ text-align: center;
 :hover {
   color: #c60089;
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  margin: 10px;
+}
+}
+@media (max-width: 768px) {
+  ::after {
+    border-bottom: none;
+}
 }
 `;
