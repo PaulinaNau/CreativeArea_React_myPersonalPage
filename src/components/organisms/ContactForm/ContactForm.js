@@ -60,7 +60,7 @@ const ContactForm = () => {
         <div className="col-10 d-flex justify-content-start mb-5">
           <div className='col-6 mb-5'>
             <Subtitle>Do usłyszenia!</Subtitle>
-            <MainText>Jeśli chciałbyś zapytać o projekt strony, wizytówki, ulotki czy innej formy graficznej, napisz do mnie, a na pewno wszystko ustalimy! Po rozmowie wyślę również szczegóły dotyczące wspólpracy i całkowity koszt projektu. I oczywiście termin realizacji!</MainText>
+            <MainText>Jeśli chciałbyś zapytać o projekt strony, wizytówki, ulotki czy innej formy graficznej, napisz do mnie, a na pewno wszystko ustalimy! Po rozmowie wyślę również szczegóły dotyczące współpracy <nobr>i całkowity</nobr> koszt projektu. I oczywiście termin realizacji!</MainText>
           </div>
         </div>
       </div>

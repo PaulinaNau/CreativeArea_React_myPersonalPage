@@ -61,7 +61,8 @@ transform: translateY(-10px);
 /* display menu */
 
  .nav-menu {
-width: 90vw;
+display: none;
+width: 60vw;
 height: auto;
 background-color: #FAF9F5;
 padding: 80px 50px;

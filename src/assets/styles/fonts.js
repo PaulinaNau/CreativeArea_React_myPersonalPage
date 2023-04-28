@@ -43,7 +43,6 @@ export const Subtitle = styled.p`
   font-size: ${({ theme }) => theme.fontSize.l};
   color:  ${(props) => props.isWhite ? 'white' : 'black'};
   font-weight: 500;
-  textalign: left;
   @media screen and (max-width: 768px) {
     font-size: ${({ theme }) => theme.fontSizeMobile.l};
   }
