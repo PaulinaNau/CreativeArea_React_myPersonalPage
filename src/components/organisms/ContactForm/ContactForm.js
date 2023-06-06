@@ -9,7 +9,7 @@ const ContactForm = () => {
  const [formStatus, setFormStatus] = React.useState('Wyślij');
 
   const onSubmit = (e) => {
-   e.preventDefault();
+  
    setFormStatus('Wysyłam...');
     const { name, email, message } = e.target.elements;
     let conFom = {
@@ -27,7 +27,7 @@ const ContactForm = () => {
           <Title>Napisz do mnie!</Title>
         </div>
         <div className="col-10 col-md-5 d-flex justify-content-center align-items-center">
-          <Form onSubmit={onSubmit} action="mailto:paulina.portfolio@gmail.com" method="post" enctype="text/plain">
+          <Form action="mailto:kontakt@creative-area.pl" method="post" enctype="text/plain">
             <div className="mb-1">
               <Label htmlFor="name"></Label>
               <Input type="text" id="name" placeholder="Imię" required />
