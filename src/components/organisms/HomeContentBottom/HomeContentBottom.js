@@ -12,13 +12,12 @@ const HomeContentBottom = () => (
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-12 col-md-6">
-            <Title isLight>Paulina Naurecka</Title>
+            <Title isLight>Każdy projekt jest unikatowy</Title>
             <MainText>
-              Na co dzień tworzę grafikę i programuję - to moja praca, ale też pasja, która daje wiele satysfakcji. Projektuję spójną
-              komunikację wizualną dla firm, od projektów digital po print.
-              Tworzę strony internetowe, przygotowyję grafiki do social media, banery,
-              katalogi, e-booki. Do druku tworzę głównie wizytówki, ulotki,
-              plakaty, zaproszenia,<nobr>a także</nobr> banery wielkoformatowe.
+              W projektowaniu obowiązują trzy najważniejsze zasady. Musi być
+              estetycznie, spójnie i przede wszystkim kreatywnie. To połączenie
+              sprawia, że każdy projekt jest piękny, funkcjonalny i unikatowy
+              dla każdej marki.
             </MainText>
             <MainText>
               Uwielbiam kreatywne wyzwania, więc jeśli potrzebujesz projektu,

@@ -30,10 +30,11 @@ const AboutContent = () => (
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-10 col-md-8 my-3 my-md-5 ">
             <MainText>
-              W projektowaniu obowiązują trzy najważniejsze zasady. Musi być
-              estetycznie, spójnie i przede wszystkim kreatywnie. To połączenie
-              sprawia, że każdy projekt jest piękny, funkcjonalny i unikatowy
-              dla każdej marki.
+              Nazywam się Paulina Naurecka, jestem graficzką i programistką. Obie dzieidziny to moja praca i pasja, która daje wiele satysfakcji. Projektuję spójną
+              komunikację wizualną dla firm, od projektów digital po print.
+              Tworzę strony internetowe, landingi i newslettery, przygotowyję grafiki do social media, banery,
+              katalogi, e-booki. Do druku tworzę głównie wizytówki, ulotki,
+              plakaty, zaproszenia,<nobr>a także</nobr> banery wielkoformatowe.
             </MainText>
           </div>
         </div>

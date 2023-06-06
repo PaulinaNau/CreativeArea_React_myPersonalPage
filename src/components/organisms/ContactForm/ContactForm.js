@@ -6,11 +6,11 @@ import ContactImg from 'assets/images/ContactImg.webp';
 import Img from 'components/atoms/Img/Img';
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Wyślij');
+  // const [formStatus, setFormStatus] = React.useState('Wyślij');
 
   const onSubmit = (e) => {
-    e.preventDefault();
-    setFormStatus('Wysyłam...');
+    // e.preventDefault();
+    // setFormStatus('Wysyłam...');
     const { name, email, message } = e.target.elements;
     let conFom = {
       name: name.value,
@@ -27,7 +27,7 @@ const ContactForm = () => {
           <Title>Napisz do mnie!</Title>
         </div>
         <div className="col-10 col-md-5 d-flex justify-content-center align-items-center">
-          <Form onSubmit={onSubmit}>
+          <Form onSubmit={onSubmit} action="mailto:paulina.portfolio@gmail.com" method="post" enctype="text/plain">
             <div className="mb-1">
               <Label htmlFor="name"></Label>
               <Input type="text" id="name" placeholder="Imię" required />
@@ -40,7 +40,8 @@ const ContactForm = () => {
               <Label htmlFor="message"></Label>
               <TextAeria id="message" placeholder="Napisz wiadomość" required />
             </div>
-            <Button type="submit">{formStatus}</Button>
+            {/* <Button value="Send" type="submit">{formStatus}</Button> */}
+            <Button value="Send" type="submit">Wyślij</Button>
           </Form>
         </div>
         <div className="col-10 col-md-6 d-flex justify-content-center align-items-center">
