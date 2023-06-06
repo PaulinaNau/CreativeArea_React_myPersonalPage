@@ -11,7 +11,7 @@ export const MainWrapper = styled.div`
 
 export const TopWrapper = styled.div`
   width: 100%;
-  height: 100px;  
+  height: 100px; 
 `;
 
 

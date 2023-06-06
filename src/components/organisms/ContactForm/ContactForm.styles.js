@@ -26,7 +26,7 @@ font-weight: 300;
     color: black;
 }
 `
-export const TextAeria = styled.textarea`
+export const TextArea = styled.textarea`
 background-color: transparent;
 border: 1px solid grey;
 height: 200px;

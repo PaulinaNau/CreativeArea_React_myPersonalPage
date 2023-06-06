@@ -11,7 +11,7 @@ export const NavWrapper = styled.nav`
   align-items: center;
   padding: 0 50px;
   position: fixed;
-  z-index: 100;
+  z-index: 10;
   @media (max-width: 768px) {
     padding: 0 20px;
   }
@@ -23,6 +23,7 @@ export const StyledLogo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 20;
   @media (max-width: 768px) {
     width: 180px;
   }
@@ -120,6 +121,7 @@ text-transform: uppercase;
 transition: color 400ms ease-in-out;
 transition: font-weight 600ms ease-in-out;
 text-align: center;
+z-index: 21;
 &.active {
   font-weight: 600;
   color: #c60089;
