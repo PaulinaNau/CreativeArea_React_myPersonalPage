@@ -11,6 +11,7 @@ const BoxProject = () => (
         <Subtitle className='text-center'>DIGITAL & PRINT</Subtitle>
           <a
             target="_blank"
+            rel="noopener"
             href="https://www.behance.net/naurecka_design"
             className="text-decoration-none"
           >
