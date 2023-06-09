@@ -56,7 +56,7 @@ const OfferContent = () => {
             <div className="col-12 col-md-5 p-2 p-md-5">
               <div className="d-flex justify-content-start align-items-center">
                 <NumberIcon>1</NumberIcon>
-                <MainText>
+                <MainText className='ps-3 ps-md-0'>
                   Omawiamy potrzeby i oczekiwania mailowo lub telefonicznie,
                   ustalamy wstępny plan działania.
                 </MainText>

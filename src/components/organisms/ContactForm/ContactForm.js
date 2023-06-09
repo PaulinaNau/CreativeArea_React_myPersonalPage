@@ -27,6 +27,7 @@ const ContactForm = () => {
           <Title>Napisz do mnie!</Title>
         </div>
         <div className="col-10 col-md-5 d-flex justify-content-center align-items-center">
+
           <Form action="mailto:kontakt@creative-area.pl" method="post" enctype="text/plain">
             <div className="mb-1">
               <Label htmlFor="name"></Label>
@@ -42,6 +43,7 @@ const ContactForm = () => {
             </div>
             <Button type="submit">{formStatus}</Button>
           </Form>
+          
         </div>
         <div className="col-10 col-md-6 d-flex justify-content-center align-items-center">
           <Img

@@ -23,9 +23,9 @@ export const StyledLogo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 20;
+  z-index: 30;
   @media (max-width: 768px) {
-    width: 180px;
+    width: 150px;
   }
 
   img {
