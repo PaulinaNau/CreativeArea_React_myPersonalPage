@@ -31,6 +31,7 @@ export const StyledLogo = styled.div`
   img {
     width: 100%;
     height: auto;
+    z-index: 40;
   }
 `;
 
