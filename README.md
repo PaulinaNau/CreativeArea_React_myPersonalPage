@@ -1,4 +1,4 @@
-**My personal website**
+**My personal website - React.js**
 
 You can see this project here:
 http://creative-area.pl/
