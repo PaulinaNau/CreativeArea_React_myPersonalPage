@@ -53,7 +53,7 @@ const ContactForm = () => {
               </MainText>
               <MainText>
                 <a href="tel:+48690720344" className="color-grey">
-                  tel. +48 960 720 344
+                  tel. +48 690 720 344
                 </a>
               </MainText>
             </div>
